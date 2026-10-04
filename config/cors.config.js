@@ -1,4 +1,8 @@
-const whiteList = ["http://localhost:5173", "https://hoppscotch.io"];
+const whiteList = [
+    "http://localhost:5173",
+    "https://hoppscotch.io",
+    "https://hoanganh-toichoi.github.io",
+];
 
 const corsOptions = {
     origin: function (origin, callback) {
